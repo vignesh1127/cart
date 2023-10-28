@@ -1,0 +1,39 @@
+.home-title{
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
+    margin-top: 5rem;
+}
+
+.category-title{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.category-list{
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.category-item{
+    border: 1px solid var(--pale-blue);
+    box-shadow: 3px 3px 2px var(--mid-gray);
+    width: 150px;
+    background-color: var(--jeans-blue);
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    min-width: 120px;
+    min-height: 100px;
+}
+
+.category-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    
+}
+.category-item:hover{
+    box-shadow: 0px 0px;
+    cursor: pointer;
+    transition: box-shadow 0.25s linear 0s;
+}
